@@ -15,7 +15,7 @@ static Cell* createCell (LinkedList *list, void *data) {
     return temp;
 }
 
-bool LinkedList_Init(LinkedList *list, int dataTypeSizeInBytes) {
+bool LinkedList_Initt(LinkedList *list, int dataTypeSizeInBytes) {
     if (!list)
         return false;
     list->first = list->last = NULL;
